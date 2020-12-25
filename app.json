@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/video/video",
+    "pages/tabBar/my/my"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/video/video",
+        "text": "视频"
+      },
+      {
+        "pagePath": "pages/tabBar/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "subpackages": [
+    {
+      "root": "pages/indexSubpages/",
+      "pages": [
+        "pages/test/test"
+      ]
+    },
+    {
+      "root": "pages/videoSubpages/",
+      "pages": [
+        "pages/test/test"
+      ]
+    },
+    {
+      "root": "pages/mySubpages/",
+      "pages": [
+        "pages/test/test"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

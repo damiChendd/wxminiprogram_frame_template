@@ -1,0 +1,5 @@
+<!--pages/tabBar/index/indx.wxml-->
+<text>pages/tabBar/index/indx.wxml</text>
+<button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onTap">
+    mock数据
+</button>
