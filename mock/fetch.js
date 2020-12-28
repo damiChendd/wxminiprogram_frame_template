@@ -1,10 +1,8 @@
-// mock 数据的请求
-
-
 /**
+ * mock 数据的请求
  * 使用方法：
  * 1.mockList.js 加入数据 key:value (注：key = apiList key，value = 要返回的值)
- * 2.apiList 加入数据 key:value (注： key = mockList key，value = 请求的)
+ * 2.apiList 加入数据 key:value (注： key = mockList key，value = 请求的路由)
  */
 
 import mockList from './mockList'
